@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.6) url("/img/background.jpg") center center fixed;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.container {
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.container span {
+  color: orange;
+}
+
+.fixed-menu ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+}
+
+.fixed-menu ul li a {
+  padding: 9px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  transition: 1s;
+}
+
+.fixed-menu ul li a:hover {
+  background-color: rgb(36, 131, 4);
+}
+
+.content {
+  position: absolute;
+  color: #fff;
+  margin-top: 8%;
+  margin-left: 35%;
+}
+
+.content h1 {
+  font-size: 50px;
+  margin-bottom: 3%;
+}
+
+.content span {
+  color: orange;
+}
+
+.content a {
+  margin-left: 30px;
+  padding: 15px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  background-color: green;
+}
+
+.content .menu-color {
+  background-color: orange;
+  padding: 15px;
+}
+
+.content2 {
+  flex-basis: 50%;
+  position: absolute;
+  left: 20%;
+  top: 65%;
+}
+
+.content2 h5 {
+  color: greenyellow;
+  font-size: 25px;
+  color: #000;
+  background-color: #fff;
+}
+
+.content p {
+  color: #fff;
+  font-size: 14px;
+  list-style: 15px;
+}
+
+.img {
+  width: 200px;
+  height: 220px;
+  display: inline-block;
+  border-radius: 15px;
+  padding: 15px 25px;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  transition: transform 1s;
+}
+
+.img1 {
+  background-image: url("/img/seblak.jpg");
+}
+.img2 {
+  background-image: url("/img/bakso.jpg");
+}
+.img3 {
+  background-image: url("/img/mi\ ayam.jpg");
+}
+.img4 {
+  background-image: url("/img/soto.jpg");
+}
+
+.img:hover {
+  transform: translateX(-8px) translateY(-15px);
+}
+
+/*daftar menu*/
+
+#menu {
+  padding: 25px 0 25px 0;
+}
+
+#section {
+  padding: 25px 0 25px 0;
+  text-align: center;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#menu_row {
+  display: flex;
+  padding: 0 100px 0 100px;
+}
+
+#menu_col {
+  box-shadow: 2px 2px 2px #bbb;
+  border: 1px solid #bbb;
+  background-color: orange;
+  margin: 10px;
+  padding: 10px;
+  flex: 1;
+}
+
+#menu_col h2 {
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  font-family: cursive;
+  margin: 10px;
+  flex: 1;
+}
+
+#image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 5px;
+  border: 2px solid orange;
+}
+
+#image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  align-items: center;
+  text-align: center;
+}
+
+/* resep */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6) url("/img/background.jpg") center center fixed;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+header {
+  background-color: orange;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin: 10px;
+}
+
+main {
+  padding: 1rem;
+}
+
+.resep-container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+
+  grid-gap: 20px;
+  color: #fff;
+}
+
+.gambar-resep img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10%;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+ul,
+ol {
+  margin-left: 1.5rem;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+/* Bagian Contact */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f0f0f0;
+  color: #333;
+  background: rgba(0, 0, 0, 0.6) url("/img/background.jpg") center center fixed;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#contact {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/*info pemesanan*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f0f0f0;
+  color: #333;
+  background: rgba(0, 0, 0, 0.6) url("/img/background.jpg") center center fixed;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#info-pemesanan {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
